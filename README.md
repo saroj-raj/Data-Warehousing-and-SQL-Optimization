@@ -2,33 +2,39 @@
 Data Warehousing and SQL Optimization
 
 ## Description
-This repository contains a suite of SQL scripts and educational materials focused on advanced data warehousing techniques and SQL query optimization. The included content covers the creation and usage of materialized views, dimensional objects, and optimized SQL queries to enhance performance in a data warehousing environment.
+This repository hosts a collection of SQL scripts alongside detailed educational materials focused on advanced data warehousing techniques and SQL query optimization. The project includes strategies for enhancing database performance through the use of materialized views, dimensional objects, and efficient query techniques.
 
 ## Getting Started
 
 ### Dependencies
-- Oracle SQL Developer or any compatible SQL execution environment.
-- Access to an Oracle database for executing the provided scripts.
+- Oracle SQL Developer or any SQL execution environment that supports Oracle's PL/SQL.
 
-### Installing
-- Ensure you have access to Oracle SQL Developer or any SQL execution environment that supports Oracle's PL/SQL.
-- Clone this repository or download the files to your local machine.
+### Installation
+- Download and install Oracle SQL Developer if not already installed.
+- Clone this repository or download the required files to your local machine.
 
-### Executing Program
-- Load the SQL scripts into your SQL environment and execute them according to the provided instructions within each file.
-- Utilize the educational PDFs to understand the theoretical background and practical implications of the scripts.
+### Executing the Program
+- Open the SQL scripts in your SQL environment.
+- Execute the scripts as per the instructions within each file to see how they enhance query performance and implement data warehousing principles.
 
-## Contents
-- **SQL Scripts**: Scripts for creating materialized views, executing optimized queries, and other database manipulations.
+## Repository Contents
+- **SQL Scripts**: Contain definitions and queries for materialized views, demonstrating optimization techniques.
 - **Educational Materials**:
-  - `final.docx` and `final_pdf.pdf`: Assignment instructions or theoretical discussions.
-  - `4.3 Facts.pdf`: Detailed discussions on fact tables.
-  - `SQL Materialised View and Dimensional Objects.pdf`: Comprehensive guide on materialized views and dimensional objects.
-  - `Sales History Dimensional Model(1) (1).docx`: Dimensional model related to the SQL scripts.
+  - `final.docx` and `final_pdf.pdf`: Provide assignment instructions or theoretical discussions.
+  - `4.3 Facts.pdf`: Discusses fact tables in detail.
+  - `SQL Materialised View and Dimensional Objects.pdf`: A guide on creating and using materialized views.
+  - `Sales History Dimensional Model(1) (1).docx`: Describes a dimensional model that complements the SQL scripts.
 
-## Usage
-- The SQL scripts are ready to be executed in an Oracle SQL environment. They include creation of materialized views and optimized queries that demonstrate performance enhancements.
-- The educational documents provide background knowledge necessary to understand and effectively utilize the SQL scripts.
+## FAQs
+
+### How do I set up the database configurations?
+Follow the instructions in `code.sql` to configure your database environment properly. This file includes comments that guide you through setting up the necessary database objects and configurations.
+
+### What are materialized views?
+Materialized views are database objects that store the results of a query physically; thus, they can speed up query processing, especially for complex queries involving large amounts of data.
+
+### How can I contribute to this project?
+Contributors can fork the repository, make their improvements, and submit a pull request. All contributions are welcome!
 
 ## Authors
 - Saroj Raj
